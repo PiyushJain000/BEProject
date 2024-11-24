@@ -1,0 +1,82 @@
+[
+    {
+      "numberPlate": "MH 01 AB 1234",
+      "insuranceDetails": {
+        "policyNumber": "INS123456789",
+        "expiryDate": "2025-01-15",
+        "coverage": "Comprehensive"
+      },
+      "rcDetails": {
+        "ownerName": "John Doe",
+        "ownership": "First Owner",
+        "registrationDate": "2020-01-15",
+        "financerName": "ABC Finance",
+        "registeredRTO": "Pune RTO"
+      },
+      "vehicleDetails": {
+        "marketModel": "Toyota Corolla",
+        "vehicleClass": "Sedan",
+        "fuelNorms": "BS VI",
+        "engineNo": "12345ENG",
+        "chassisNo": "12345CHS"
+      },
+      "importantDates": {
+        "insuranceExpiry": "2025-01-15",
+        "vehicleAge": "3 years",
+        "fitnessUpto": "2026-01-15",
+        "registrationDate": "2020-01-15"
+      },
+      "otherInformation": {
+        "registrationNo": "MH 01 AB 1234",
+        "color": "Blue",
+        "rcStatus": "Active"
+      },
+      "specifications": {
+        "fuelType": "Petrol",
+        "mileage": "15 km/l",
+        "seatingCapacity": "5",
+        "transmission": "Automatic",
+        "topSpeed": "180 km/h"
+      }
+    },
+    {
+      "numberPlate": "MH 02 CD 5678",
+      "insuranceDetails": {
+        "policyNumber": "INS987654321",
+        "expiryDate": "2024-11-30",
+        "coverage": "Third Party"
+      },
+      "rcDetails": {
+        "ownerName": "Jane Smith",
+        "ownership": "Second Owner",
+        "registrationDate": "2018-06-20",
+        "financerName": "XYZ Finance",
+        "registeredRTO": "Mumbai RTO"
+      },
+      "vehicleDetails": {
+        "marketModel": "Honda Accord",
+        "vehicleClass": "Sedan",
+        "fuelNorms": "BS VI",
+        "engineNo": "67890ENG",
+        "chassisNo": "67890CHS"
+      },
+      "importantDates": {
+        "insuranceExpiry": "2024-11-30",
+        "vehicleAge": "6 years",
+        "fitnessUpto": "2025-11-30",
+        "registrationDate": "2018-06-20"
+      },
+      "otherInformation": {
+        "registrationNo": "MH 02 CD 5678",
+        "color": "Black",
+        "rcStatus": "Active"
+      },
+      "specifications": {
+        "fuelType": "Diesel",
+        "mileage": "18 km/l",
+        "seatingCapacity": "5",
+        "transmission": "Manual",
+        "topSpeed": "200 km/h"
+      }
+    }
+  ]

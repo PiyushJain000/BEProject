@@ -1,0 +1,802 @@
+[
+  {
+    "numberPlate": "MH 01 AB 1234",
+    "insuranceDetails": {
+      "policyNumber": "INS123456789",
+      "expiryDate": "2025-01-15",
+      "coverage": "Comprehensive"
+    },
+    "rcDetails": {
+      "ownerName": "John Doe",
+      "ownership": "First Owner",
+      "registrationDate": "2020-01-15",
+      "financerName": "ABC Finance",
+      "registeredRTO": "Pune RTO"
+    },
+    "vehicleDetails": {
+      "marketModel": "Toyota Corolla",
+      "vehicleClass": "Sedan",
+      "fuelNorms": "BS VI",
+      "engineNo": "12345ENG",
+      "chassisNo": "12345CHS"
+    },
+    "importantDates": {
+      "insuranceExpiry": "2025-01-15",
+      "vehicleAge": "3 years",
+      "fitnessUpto": "2026-01-15",
+      "registrationDate": "2020-01-15"
+    },
+    "otherInformation": {
+      "registrationNo": "MH 01 AB 1234",
+      "color": "Blue",
+      "rcStatus": "Active"
+    },
+    "specifications": {
+      "fuelType": "Petrol",
+      "mileage": "15 km/l",
+      "seatingCapacity": "5",
+      "transmission": "Automatic",
+      "topSpeed": "180 km/h"
+    }
+  },
+  {
+    "numberPlate": "MH 02 CD 5678",
+    "insuranceDetails": {
+      "policyNumber": "INS987654321",
+      "expiryDate": "2024-11-30",
+      "coverage": "Third Party"
+    },
+    "rcDetails": {
+      "ownerName": "Jane Smith",
+      "ownership": "Second Owner",
+      "registrationDate": "2018-06-20",
+      "financerName": "XYZ Finance",
+      "registeredRTO": "Mumbai RTO"
+    },
+    "vehicleDetails": {
+      "marketModel": "Honda Accord",
+      "vehicleClass": "Sedan",
+      "fuelNorms": "BS VI",
+      "engineNo": "67890ENG",
+      "chassisNo": "67890CHS"
+    },
+    "importantDates": {
+      "insuranceExpiry": "2024-11-30",
+      "vehicleAge": "6 years",
+      "fitnessUpto": "2025-11-30",
+      "registrationDate": "2018-06-20"
+    },
+    "otherInformation": {
+      "registrationNo": "MH 02 CD 5678",
+      "color": "Black",
+      "rcStatus": "Active"
+    },
+    "specifications": {
+      "fuelType": "Diesel",
+      "mileage": "18 km/l",
+      "seatingCapacity": "5",
+      "transmission": "Manual",
+      "topSpeed": "200 km/h"
+    }
+  },
+  {
+    "numberPlate": "MH 03 EF 9101",
+    "insuranceDetails": {
+      "policyNumber": "INS555123456",
+      "expiryDate": "2025-03-20",
+      "coverage": "Comprehensive"
+    },
+    "rcDetails": {
+      "ownerName": "Michael Johnson",
+      "ownership": "First Owner",
+      "registrationDate": "2021-02-10",
+      "financerName": "LMN Finance",
+      "registeredRTO": "Nagpur RTO"
+    },
+    "vehicleDetails": {
+      "marketModel": "Ford EcoSport",
+      "vehicleClass": "SUV",
+      "fuelNorms": "BS VI",
+      "engineNo": "11223ENG",
+      "chassisNo": "11223CHS"
+    },
+    "importantDates": {
+      "insuranceExpiry": "2025-03-20",
+      "vehicleAge": "2 years",
+      "fitnessUpto": "2026-02-10",
+      "registrationDate": "2021-02-10"
+    },
+    "otherInformation": {
+      "registrationNo": "MH 03 EF 9101",
+      "color": "Red",
+      "rcStatus": "Active"
+    },
+    "specifications": {
+      "fuelType": "Petrol",
+      "mileage": "14 km/l",
+      "seatingCapacity": "5",
+      "transmission": "Automatic",
+      "topSpeed": "175 km/h"
+    }
+  },
+  {
+    "numberPlate": "MH 04 GH 1122",
+    "insuranceDetails": {
+      "policyNumber": "INS777654321",
+      "expiryDate": "2024-08-05",
+      "coverage": "Third Party"
+    },
+    "rcDetails": {
+      "ownerName": "Emily Davis",
+      "ownership": "First Owner",
+      "registrationDate": "2019-07-15",
+      "financerName": "PQR Finance",
+      "registeredRTO": "Aurangabad RTO"
+    },
+    "vehicleDetails": {
+      "marketModel": "Maruti Suzuki Swift",
+      "vehicleClass": "Hatchback",
+      "fuelNorms": "BS VI",
+      "engineNo": "44556ENG",
+      "chassisNo": "44556CHS"
+    },
+    "importantDates": {
+      "insuranceExpiry": "2024-08-05",
+      "vehicleAge": "5 years",
+      "fitnessUpto": "2025-07-15",
+      "registrationDate": "2019-07-15"
+    },
+    "otherInformation": {
+      "registrationNo": "MH 04 GH 1122",
+      "color": "White",
+      "rcStatus": "Active"
+    },
+    "specifications": {
+      "fuelType": "Petrol",
+      "mileage": "22 km/l",
+      "seatingCapacity": "5",
+      "transmission": "Manual",
+      "topSpeed": "160 km/h"
+    }
+  },
+  {
+    "numberPlate": "MH 05 IJ 3344",
+    "insuranceDetails": {
+      "policyNumber": "INS888123456",
+      "expiryDate": "2023-12-15",
+      "coverage": "Comprehensive"
+    },
+    "rcDetails": {
+      "ownerName": "Robert Brown",
+      "ownership": "Third Owner",
+      "registrationDate": "2015-03-30",
+      "financerName": "STU Finance",
+      "registeredRTO": "Solapur RTO"
+    },
+    "vehicleDetails": {
+      "marketModel": "Hyundai Creta",
+      "vehicleClass": "SUV",
+      "fuelNorms": "BS VI",
+      "engineNo": "99887ENG",
+      "chassisNo": "99887CHS"
+    },
+    "importantDates": {
+      "insuranceExpiry": "2023-12-15",
+      "vehicleAge": "8 years",
+      "fitnessUpto": "2024-03-30",
+      "registrationDate": "2015-03-30"
+    },
+    "otherInformation": {
+      "registrationNo": "MH 05 IJ 3344",
+      "color": "Grey",
+      "rcStatus": "Active"
+    },
+    "specifications": {
+      "fuelType": "Diesel",
+      "mileage": "19 km/l",
+      "seatingCapacity": "5",
+      "transmission": "Automatic",
+      "topSpeed": "190 km/h"
+    }
+  },
+  {
+    "numberPlate": "MH 06 KL 5566",
+    "insuranceDetails": {
+      "policyNumber": "INS222987654",
+      "expiryDate": "2025-06-30",
+      "coverage": "Comprehensive"
+    },
+    "rcDetails": {
+      "ownerName": "Laura Wilson",
+      "ownership": "First Owner",
+      "registrationDate": "2022-01-25",
+      "financerName": "JKL Finance",
+      "registeredRTO": "Nagpur RTO"
+    },
+    "vehicleDetails": {
+      "marketModel": "Kia Seltos",
+      "vehicleClass": "SUV",
+      "fuelNorms": "BS VI",
+      "engineNo": "54321ENG",
+      "chassisNo": "54321CHS"
+    },
+    "importantDates": {
+      "insuranceExpiry": "2025-06-30",
+      "vehicleAge": "2 years",
+      "fitnessUpto": "2026-01-25",
+      "registrationDate": "2022-01-25"
+    },
+    "otherInformation": {
+      "registrationNo": "MH 06 KL 5566",
+      "color": "Silver",
+      "rcStatus": "Active"
+    },
+    "specifications": {
+      "fuelType": "Petrol",
+      "mileage": "17 km/l",
+      "seatingCapacity": "5",
+      "transmission": "Automatic",
+      "topSpeed": "200 km/h"
+    }
+  },
+  {
+    "numberPlate": "MH 07 MN 7788",
+    "insuranceDetails": {
+      "policyNumber": "INS111223344",
+      "expiryDate": "2024-05-10",
+      "coverage": "Third Party"
+    },
+    "rcDetails": {
+      "ownerName": "David Smith",
+      "ownership": "Second Owner",
+      "registrationDate": "2020-11-05",
+      "financerName": "XYZ Finance",
+      "registeredRTO": "Mumbai RTO"
+    },
+    "vehicleDetails": {
+      "marketModel": "Skoda Octavia",
+      "vehicleClass": "Sedan",
+      "fuelNorms": "BS VI",
+      "engineNo": "99999ENG",
+      "chassisNo": "99999CHS"
+    },
+    "importantDates": {
+      "insuranceExpiry": "2024-05-10",
+      "vehicleAge": "4 years",
+      "fitnessUpto": "2025-11-05",
+      "registrationDate": "2020-11-05"
+    },
+    "otherInformation": {
+      "registrationNo": "MH 07 MN 7788",
+      "color": "White",
+      "rcStatus": "Active"
+    },
+    "specifications": {
+      "fuelType": "Petrol",
+      "mileage": "16 km/l",
+      "seatingCapacity": "5",
+      "transmission": "Automatic",
+      "topSpeed": "190 km/h"
+    }
+  },
+  {
+    "numberPlate": "MH 08 OP 9900",
+    "insuranceDetails": {
+      "policyNumber": "INS444556677",
+      "expiryDate": "2023-09-25",
+      "coverage": "Comprehensive"
+    },
+    "rcDetails": {
+      "ownerName": "Sophia Turner",
+      "ownership": "First Owner",
+      "registrationDate": "2021-05-20",
+      "financerName": "PQR Finance",
+      "registeredRTO": "Aurangabad RTO"
+    },
+    "vehicleDetails": {
+      "marketModel": "Nissan Kicks",
+      "vehicleClass": "SUV",
+      "fuelNorms": "BS VI",
+      "engineNo": "24680ENG",
+      "chassisNo": "24680CHS"
+    },
+    "importantDates": {
+      "insuranceExpiry": "2023-09-25",
+      "vehicleAge": "3 years",
+      "fitnessUpto": "2024-05-20",
+      "registrationDate": "2021-05-20"
+    },
+    "otherInformation": {
+      "registrationNo": "MH 08 OP 9900",
+      "color": "Black",
+      "rcStatus": "Active"
+    },
+    "specifications": {
+      "fuelType": "Petrol",
+      "mileage": "15 km/l",
+      "seatingCapacity": "5",
+      "transmission": "Manual",
+      "topSpeed": "185 km/h"
+    }
+  },
+  {
+    "numberPlate": "MH 09 QR 2233",
+    "insuranceDetails": {
+      "policyNumber": "INS888777666",
+      "expiryDate": "2026-01-10",
+      "coverage": "Third Party"
+    },
+    "rcDetails": {
+      "ownerName": "James Brown",
+      "ownership": "Third Owner",
+      "registrationDate": "2014-08-15",
+      "financerName": "LMN Finance",
+      "registeredRTO": "Solapur RTO"
+    },
+    "vehicleDetails": {
+      "marketModel": "Tata Nexon",
+      "vehicleClass": "SUV",
+      "fuelNorms": "BS VI",
+      "engineNo": "13579ENG",
+      "chassisNo": "13579CHS"
+    },
+    "importantDates": {
+      "insuranceExpiry": "2026-01-10",
+      "vehicleAge": "10 years",
+      "fitnessUpto": "2025-08-15",
+      "registrationDate": "2014-08-15"
+    },
+    "otherInformation": {
+      "registrationNo": "MH 09 QR 2233",
+      "color": "Blue",
+      "rcStatus": "Active"
+    },
+    "specifications": {
+      "fuelType": "Diesel",
+      "mileage": "20 km/l",
+      "seatingCapacity": "5",
+      "transmission": "Automatic",
+      "topSpeed": "180 km/h"
+    }
+  },
+  {
+    "numberPlate": "MH 10 ST 3344",
+    "insuranceDetails": {
+      "policyNumber": "INS123321654",
+      "expiryDate": "2024-03-15",
+      "coverage": "Comprehensive"
+    },
+    "rcDetails": {
+      "ownerName": "Olivia Green",
+      "ownership": "First Owner",
+      "registrationDate": "2020-04-05",
+      "financerName": "OPQ Finance",
+      "registeredRTO": "Pune RTO"
+    },
+    "vehicleDetails": {
+      "marketModel": "MG Hector",
+      "vehicleClass": "SUV",
+      "fuelNorms": "BS VI",
+      "engineNo": "98765ENG",
+      "chassisNo": "98765CHS"
+    },
+    "importantDates": {
+      "insuranceExpiry": "2024-03-15",
+      "vehicleAge": "4 years",
+      "fitnessUpto": "2025-04-05",
+      "registrationDate": "2020-04-05"
+    },
+    "otherInformation": {
+      "registrationNo": "MH 10 ST 3344",
+      "color": "White",
+      "rcStatus": "Active"
+    },
+    "specifications": {
+      "fuelType": "Petrol",
+      "mileage": "13 km/l",
+      "seatingCapacity": "5",
+      "transmission": "Automatic",
+      "topSpeed": "170 km/h"
+    }
+  },
+  {
+    "numberPlate": "MH 11 UV 4455",
+    "insuranceDetails": {
+      "policyNumber": "INS456789123",
+      "expiryDate": "2025-12-15",
+      "coverage": "Comprehensive"
+    },
+    "rcDetails": {
+      "ownerName": "Ethan Allen",
+      "ownership": "First Owner",
+      "registrationDate": "2022-03-10",
+      "financerName": "RST Finance",
+      "registeredRTO": "Nagpur RTO"
+    },
+    "vehicleDetails": {
+      "marketModel": "Hyundai Creta",
+      "vehicleClass": "SUV",
+      "fuelNorms": "BS VI",
+      "engineNo": "24680ENG",
+      "chassisNo": "24680CHS"
+    },
+    "importantDates": {
+      "insuranceExpiry": "2025-12-15",
+      "vehicleAge": "2 years",
+      "fitnessUpto": "2026-03-10",
+      "registrationDate": "2022-03-10"
+    },
+    "otherInformation": {
+      "registrationNo": "MH 11 UV 4455",
+      "color": "Red",
+      "rcStatus": "Active"
+    },
+    "specifications": {
+      "fuelType": "Petrol",
+      "mileage": "17 km/l",
+      "seatingCapacity": "5",
+      "transmission": "Automatic",
+      "topSpeed": "190 km/h"
+    }
+  },
+  {
+    "numberPlate": "MH 12 WX 5566",
+    "insuranceDetails": {
+      "policyNumber": "INS123456789",
+      "expiryDate": "2024-08-20",
+      "coverage": "Third Party"
+    },
+    "rcDetails": {
+      "ownerName": "Mia Johnson",
+      "ownership": "Second Owner",
+      "registrationDate": "2019-07-30",
+      "financerName": "XYZ Finance",
+      "registeredRTO": "Pune RTO"
+    },
+    "vehicleDetails": {
+      "marketModel": "Ford EcoSport",
+      "vehicleClass": "SUV",
+      "fuelNorms": "BS VI",
+      "engineNo": "98765ENG",
+      "chassisNo": "98765CHS"
+    },
+    "importantDates": {
+      "insuranceExpiry": "2024-08-20",
+      "vehicleAge": "5 years",
+      "fitnessUpto": "2025-07-30",
+      "registrationDate": "2019-07-30"
+    },
+    "otherInformation": {
+      "registrationNo": "MH 12 WX 5566",
+      "color": "Grey",
+      "rcStatus": "Active"
+    },
+    "specifications": {
+      "fuelType": "Petrol",
+      "mileage": "14 km/l",
+      "seatingCapacity": "5",
+      "transmission": "Automatic",
+      "topSpeed": "175 km/h"
+    }
+  },
+  {
+    "numberPlate": "MH 13 YZ 6677",
+    "insuranceDetails": {
+      "policyNumber": "INS789456123",
+      "expiryDate": "2026-02-10",
+      "coverage": "Comprehensive"
+    },
+    "rcDetails": {
+      "ownerName": "Lucas Davis",
+      "ownership": "First Owner",
+      "registrationDate": "2023-01-05",
+      "financerName": "LMN Finance",
+      "registeredRTO": "Mumbai RTO"
+    },
+    "vehicleDetails": {
+      "marketModel": "Tata Harrier",
+      "vehicleClass": "SUV",
+      "fuelNorms": "BS VI",
+      "engineNo": "12345ENG",
+      "chassisNo": "12345CHS"
+    },
+    "importantDates": {
+      "insuranceExpiry": "2026-02-10",
+      "vehicleAge": "1 year",
+      "fitnessUpto": "2027-01-05",
+      "registrationDate": "2023-01-05"
+    },
+    "otherInformation": {
+      "registrationNo": "MH 13 YZ 6677",
+      "color": "Orange",
+      "rcStatus": "Active"
+    },
+    "specifications": {
+      "fuelType": "Diesel",
+      "mileage": "16 km/l",
+      "seatingCapacity": "5",
+      "transmission": "Automatic",
+      "topSpeed": "185 km/h"
+    }
+  },
+  {
+    "numberPlate": "MH 14 AB 7788",
+    "insuranceDetails": {
+      "policyNumber": "INS321654987",
+      "expiryDate": "2025-10-30",
+      "coverage": "Third Party"
+    },
+    "rcDetails": {
+      "ownerName": "Emily Clark",
+      "ownership": "Third Owner",
+      "registrationDate": "2016-12-20",
+      "financerName": "OPQ Finance",
+      "registeredRTO": "Aurangabad RTO"
+    },
+    "vehicleDetails": {
+      "marketModel": "Mahindra XUV500",
+      "vehicleClass": "SUV",
+      "fuelNorms": "BS VI",
+      "engineNo": "67890ENG",
+      "chassisNo": "67890CHS"
+    },
+    "importantDates": {
+      "insuranceExpiry": "2025-10-30",
+      "vehicleAge": "8 years",
+      "fitnessUpto": "2026-12-20",
+      "registrationDate": "2016-12-20"
+    },
+    "otherInformation": {
+      "registrationNo": "MH 14 AB 7788",
+      "color": "Dark Blue",
+      "rcStatus": "Active"
+    },
+    "specifications": {
+      "fuelType": "Diesel",
+      "mileage": "14 km/l",
+      "seatingCapacity": "7",
+      "transmission": "Automatic",
+      "topSpeed": "180 km/h"
+    }
+  },
+  {
+    "numberPlate": "MH 15 CD 8899",
+    "insuranceDetails": {
+      "policyNumber": "INS987123456",
+      "expiryDate": "2024-12-25",
+      "coverage": "Comprehensive"
+    },
+    "rcDetails": {
+      "ownerName": "Oliver Brown",
+      "ownership": "Second Owner",
+      "registrationDate": "2017-09-12",
+      "financerName": "JKL Finance",
+      "registeredRTO": "Solapur RTO"
+    },
+    "vehicleDetails": {
+      "marketModel": "Volkswagen Polo",
+      "vehicleClass": "Hatchback",
+      "fuelNorms": "BS VI",
+      "engineNo": "13579ENG",
+      "chassisNo": "13579CHS"
+    },
+    "importantDates": {
+      "insuranceExpiry": "2024-12-25",
+      "vehicleAge": "7 years",
+      "fitnessUpto": "2025-09-12",
+      "registrationDate": "2017-09-12"
+    },
+    "otherInformation": {
+      "registrationNo": "MH 15 CD 8899",
+      "color": "White",
+      "rcStatus": "Active"
+    },
+    "specifications": {
+      "fuelType": "Petrol",
+      "mileage": "16 km/l",
+      "seatingCapacity": "5",
+      "transmission": "Manual",
+      "topSpeed": "170 km/h"
+    }
+  },
+  {
+    "numberPlate": "MH 16 EF 9900",
+    "insuranceDetails": {
+      "policyNumber": "INS654987321",
+      "expiryDate": "2025-03-05",
+      "coverage": "Third Party"
+    },
+    "rcDetails": {
+      "ownerName": "Charlotte Harris",
+      "ownership": "First Owner",
+      "registrationDate": "2020-02-14",
+      "financerName": "ABC Finance",
+      "registeredRTO": "Nagpur RTO"
+    },
+    "vehicleDetails": {
+      "marketModel": "Renault Duster",
+      "vehicleClass": "SUV",
+      "fuelNorms": "BS VI",
+      "engineNo": "24680ENG",
+      "chassisNo": "24680CHS"
+    },
+    "importantDates": {
+      "insuranceExpiry": "2025-03-05",
+      "vehicleAge": "4 years",
+      "fitnessUpto": "2026-02-14",
+      "registrationDate": "2020-02-14"
+    },
+    "otherInformation": {
+      "registrationNo": "MH 16 EF 9900",
+      "color": "Grey",
+      "rcStatus": "Active"
+    },
+    "specifications": {
+      "fuelType": "Diesel",
+      "mileage": "19 km/l",
+      "seatingCapacity": "5",
+      "transmission": "Manual",
+      "topSpeed": "175 km/h"
+    }
+  },
+  {
+    "numberPlate": "MH 17 GH 2233",
+    "insuranceDetails": {
+      "policyNumber": "INS789321456",
+      "expiryDate": "2024-06-18",
+      "coverage": "Comprehensive"
+    },
+    "rcDetails": {
+      "ownerName": "Amelia Moore",
+      "ownership": "Third Owner",
+      "registrationDate": "2015-11-11",
+      "financerName": "DEF Finance",
+      "registeredRTO": "Thane RTO"
+    },
+    "vehicleDetails": {
+      "marketModel": "Honda City",
+      "vehicleClass": "Sedan",
+      "fuelNorms": "BS VI",
+      "engineNo": "13579ENG",
+      "chassisNo": "13579CHS"
+    },
+    "importantDates": {
+      "insuranceExpiry": "2024-06-18",
+      "vehicleAge": "9 years",
+      "fitnessUpto": "2025-11-11",
+      "registrationDate": "2015-11-11"
+    },
+    "otherInformation": {
+      "registrationNo": "MH 17 GH 2233",
+      "color": "Black",
+      "rcStatus": "Active"
+    },
+    "specifications": {
+      "fuelType": "Petrol",
+      "mileage": "16 km/l",
+      "seatingCapacity": "5",
+      "transmission": "Automatic",
+      "topSpeed": "180 km/h"
+    }
+  },
+  {
+    "numberPlate": "MH 18 IJ 3344",
+    "insuranceDetails": {
+      "policyNumber": "INS321987654",
+      "expiryDate": "2025-04-22",
+      "coverage": "Third Party"
+    },
+    "rcDetails": {
+      "ownerName": "Isabella Wilson",
+      "ownership": "First Owner",
+      "registrationDate": "2021-05-17",
+      "financerName": "GHI Finance",
+      "registeredRTO": "Nashik RTO"
+    },
+    "vehicleDetails": {
+      "marketModel": "Kia Seltos",
+      "vehicleClass": "SUV",
+      "fuelNorms": "BS VI",
+      "engineNo": "67890ENG",
+      "chassisNo": "67890CHS"
+    },
+    "importantDates": {
+      "insuranceExpiry": "2025-04-22",
+      "vehicleAge": "3 years",
+      "fitnessUpto": "2026-05-17",
+      "registrationDate": "2021-05-17"
+    },
+    "otherInformation": {
+      "registrationNo": "MH 18 IJ 3344",
+      "color": "Silver",
+      "rcStatus": "Active"
+    },
+    "specifications": {
+      "fuelType": "Petrol",
+      "mileage": "17 km/l",
+      "seatingCapacity": "5",
+      "transmission": "Automatic",
+      "topSpeed": "190 km/h"
+    }
+  },
+  {
+    "numberPlate": "MH 19 KL 4455",
+    "insuranceDetails": {
+      "policyNumber": "INS654321987",
+      "expiryDate": "2025-11-11",
+      "coverage": "Comprehensive"
+    },
+    "rcDetails": {
+      "ownerName": "James Lee",
+      "ownership": "Second Owner",
+      "registrationDate": "2018-10-10",
+      "financerName": "JKL Finance",
+      "registeredRTO": "Pune RTO"
+    },
+    "vehicleDetails": {
+      "marketModel": "Nissan Kicks",
+      "vehicleClass": "SUV",
+      "fuelNorms": "BS VI",
+      "engineNo": "54321ENG",
+      "chassisNo": "54321CHS"
+    },
+    "importantDates": {
+      "insuranceExpiry": "2025-11-11",
+      "vehicleAge": "6 years",
+      "fitnessUpto": "2026-10-10",
+      "registrationDate": "2018-10-10"
+    },
+    "otherInformation": {
+      "registrationNo": "MH 19 KL 4455",
+      "color": "Brown",
+      "rcStatus": "Active"
+    },
+    "specifications": {
+      "fuelType": "Petrol",
+      "mileage": "15 km/l",
+      "seatingCapacity": "5",
+      "transmission": "Manual",
+      "topSpeed": "170 km/h"
+    }
+  },
+  {
+    "numberPlate": "MH 20 MN 5566",
+    "insuranceDetails": {
+      "policyNumber": "INS098765432",
+      "expiryDate": "2026-01-15",
+      "coverage": "Third Party"
+    },
+    "rcDetails": {
+      "ownerName": "Liam Walker",
+      "ownership": "First Owner",
+      "registrationDate": "2022-09-21",
+      "financerName": "ABC Finance",
+      "registeredRTO": "Aurangabad RTO"
+    },
+    "vehicleDetails": {
+      "marketModel": "Skoda Kushaq",
+      "vehicleClass": "SUV",
+      "fuelNorms": "BS VI",
+      "engineNo": "98765ENG",
+      "chassisNo": "98765CHS"
+    },
+    "importantDates": {
+      "insuranceExpiry": "2026-01-15",
+      "vehicleAge": "2 years",
+      "fitnessUpto": "2027-09-21",
+      "registrationDate": "2022-09-21"
+    },
+    "otherInformation": {
+      "registrationNo": "MH 20 MN 5566",
+      "color": "Blue",
+      "rcStatus": "Active"
+    },
+    "specifications": {
+      "fuelType": "Petrol",
+      "mileage": "16 km/l",
+      "seatingCapacity": "5",
+      "transmission": "Automatic",
+      "topSpeed": "180 km/h"
+    }
+  }
+]

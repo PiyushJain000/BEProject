@@ -1,0 +1,268 @@
+/* Dashboard.css */
+
+:root {
+  --primary-color: #3498db;
+  --secondary-color: #2ecc71;
+  --accent-color: #e74c3c;
+  --background-color: #f0f3f6;
+  --card-background: #ffffff;
+  --text-color: #2c3e50;
+  --shadow-color: rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: var(--background-color);
+  font-family: "Roboto", sans-serif;
+  color: var(--text-color);
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: var(--primary-color);
+  text-align: center;
+  margin-bottom: 2rem;
+  position: relative;
+  overflow: hidden;
+}
+
+h2::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 50px;
+  height: 3px;
+  background-color: var(--accent-color);
+  transform: translateX(-50%);
+  transition: width 0.3s ease;
+}
+
+h2:hover::after {
+  width: 100px;
+}
+
+.dashboard-section {
+  background-color: var(--card-background);
+  border-radius: 10px;
+  box-shadow: 0 5px 15px var(--shadow-color);
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.dashboard-section:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px var(--shadow-color);
+}
+
+h3 {
+  font-size: 1.8rem;
+  color: var(--secondary-color);
+  margin-bottom: 1rem;
+  position: relative;
+  display: inline-block;
+}
+
+h3::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: var(--secondary-color);
+  transition: width 0.3s ease;
+}
+
+.dashboard-section:hover h3::after {
+  width: 100%;
+}
+
+.vehicle-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+/* Styling for child components */
+.vehicle-summary-card,
+.expiry-alerts,
+.pending-fines,
+.testing-appointments,
+.compliance-records {
+  background-color: var(--card-background);
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 3px 10px var(--shadow-color);
+  transition: all 0.3s ease;
+}
+
+.vehicle-summary-card:hover,
+.expiry-alerts:hover,
+.pending-fines:hover,
+.testing-appointments:hover,
+.compliance-records:hover {
+  transform: scale(1.03);
+  box-shadow: 0 5px 15px var(--shadow-color);
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.dashboard-section {
+  animation: fadeIn 0.5s ease-out forwards;
+  opacity: 0;
+}
+
+.dashboard-section:nth-child(1) {
+  animation-delay: 0.1s;
+}
+.dashboard-section:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.dashboard-section:nth-child(3) {
+  animation-delay: 0.3s;
+}
+.dashboard-section:nth-child(4) {
+  animation-delay: 0.4s;
+}
+.dashboard-section:nth-child(5) {
+  animation-delay: 0.5s;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .dashboard-container {
+    padding: 1rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  .vehicle-cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--secondary-color);
+}
+
+/* Additional styles for child components (you may need to adjust these based on your actual component structure) */
+
+.vehicle-summary-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.vehicle-summary-card h4 {
+  font-size: 1.2rem;
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
+}
+
+.expiry-alerts ul,
+.pending-fines ul,
+.testing-appointments ul,
+.compliance-records ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.expiry-alerts li,
+.pending-fines li,
+.testing-appointments li,
+.compliance-records li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--background-color);
+  transition: background-color 0.3s ease;
+}
+
+.expiry-alerts li:hover,
+.pending-fines li:hover,
+.testing-appointments li:hover,
+.compliance-records li:hover {
+  background-color: rgba(52, 152, 219, 0.1);
+}
+
+/* Status indicators */
+.status {
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.status-active {
+  background-color: var(--secondary-color);
+  color: white;
+}
+
+.status-expiring {
+  background-color: var(--accent-color);
+  color: white;
+}
+
+/* Button styles */
+.dashboard-button {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.dashboard-button:hover {
+  background-color: #2980b9;
+  transform: translateY(-2px);
+}
+
+.loading-skeleton {
+  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  background-size: 200% 100%;
+  animation: loading 1.5s infinite;
+}
+
+@keyframes loading {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
